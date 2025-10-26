@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  line-height: 0.75;
+}
+
+.nav-section {
+  padding: 36px 100px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: rgb(0, 162, 255);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.middle-menu a {
+  text-decoration: none;
+  color: #1a1a1a;
+  margin-right: 80px;
+  font-size: 14px;
+}
+
+.signup {
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 149, 0);
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* HERO SECTION */
+
+.heros {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-side {
+  max-width: 600px;
+}
+
+.left-side h1 {
+  font-size: 56px;
+  font-weight: 700;
+  max-width: 560px;
+  line-height: 1.2;
+  color: #2d2d2d;
+  margin-bottom: 0;
+}
+.plan-book {
+  width: 550px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.btn-store {
+  display: flex;
+  gap: 30px;
+}
+
+.android {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  background-color: #1a1a1a;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 2.4px solid #e7e6e6;
+}
+.android img {
+  width: 28px;
+  padding-right: 10px;
+}
+.android .getin {
+  color: #fff;
+  font-size: 10px;
+  padding-bottom: 8px;
+}
+.android .google {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.right-side {
+  max-width: 700px;
+  display: flex;
+  justify-content: right;
+}
+.right-side img {
+  width: 550px;
+  margin-right: -56px;
+}
